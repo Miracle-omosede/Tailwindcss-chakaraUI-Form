@@ -41,7 +41,7 @@ export default function Home() {
       <FormControl isRequired isInvalid={!values.message} mb={5}>
         <FormLabel>Message</FormLabel>
         <Textarea name="message" onChange={handleChange} errorBorderColor="red.300" value={values.message} rows="4" />
-        <FormErrorMessage>Required</FormErrorMessage>
+        <FormErrorMessage>Required Field</FormErrorMessage>
       </FormControl>
     </div>
   );
